@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "bfs";
+  src: url('./fonts/bfs.eot?t=1672563555270'); /* IE9*/
+  src: url('./fonts/bfs.eot?t=1672563555270#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("./fonts/bfs.woff2?t=1672563555270") format("woff2"),
+  url("./fonts/bfs.woff?t=1672563555270") format("woff"),
+  url('./fonts/bfs.ttf?t=1672563555270') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/bfs.svg?t=1672563555270#bfs') format('svg'); /* iOS 4.1- */
+}
+
+[class^="bfs-"], [class*=" bfs-"] {
+  font-family: 'bfs' !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.bfs-instagram-like-3507:before { content: "\ea01"; }
+.bfs-linkedin-112:before { content: "\ea02"; }
+.bfs-twitter-logo-2429:before { content: "\ea03"; }
+.bfs-youtube-logo-2431:before { content: "\ea04"; }
