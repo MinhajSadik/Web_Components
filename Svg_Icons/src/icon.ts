@@ -48,7 +48,7 @@ class BFSIcon extends ContextProviderComponent {
 
   get stylesheet() {
     return `
-			<link href="../src/bfs-icon.css" rel="stylesheet"/>
+			<link href="./bfs-icon.css" rel="stylesheet"/>
 		`;
   }
 
